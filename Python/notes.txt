@@ -1,0 +1,248 @@
+By the use of command prompt(comes with downward arrow near plus button)we will be creating separate env for installing libraries in each use case like ml, dl, nlp etc.
+Use of latest version of python is because of more number of libraries.
+venv stands for virtual environment. The separate environment that we would be creating.it is like a separate box for using python and its libraries individually for each project.so that it does not mix with other projects. sex could mean different in different scenarios(gender/mate). so similar way.
+Github copilot writes codes directly from a problem statement.
+Markdown in jupyter is used for heading. use # in beginning to write heading #somya, then shift+enter. double hashtags is used for sub heading. again shift+enter
+Your code = English sentence(python is a bridge between humans and computers),A library is a collection of pre-written code (functions, classes, tools) that you can reuse.
+Compiler/Interpreter = translator
+Binary = Morse code ⚡
+CPU = person reading Morse and acting
+IDE = place where you write, run, debug, and manage your entire coding workflow.
+Anaconda is a complete package (distribution) of Python + tools + libraries, designed especially for data science, machine learning, and AI.
+Syntax is grammer(set of rules) of this language. so python, c++ all have different syntax. 
+notebook is line by line notation of this language or code.
+Semantics refer to meaning or interpretation of symbol, characters or commands in a language. It is about what the code is supposed to do when it runs.
+Python Syntax Rules:-
+a) it is case sensitive(values of variables are case sensitive. Amit not equals to amit)
+b)Indentation(proper spaces for easy readibility of other coders), in other languages {} is used. Hence, indentation error is when there is no proper spaces left for easy readibility.
+C)Backslash\ is used for continuation of statements onto the next line.
+d) In case of multiple line of codes in single statement, use semicolon. for example, a=5;b=6;c=8
+why different languages are used like python, c++ why not a single Because no single language can be best at everything. Different languages exist because they optimize for different trade-offs.
+Variables are containers that can store different(varied) values or data, we can vary a data in a declared variable.
+these variables, tuples, and all and everything in a language is part of language through which we can execute a particular task through computers or basically a mode of communication for different actions and scenarios(basically the function of a language)
+print function is used to represent value in console that has been passed through it, so like if variable named as age then print(age) will give the value entered in age function.
+Input, processing, and output are just electrical signals flowing through circuits, controlled by instructions.
+Comment is a statement in the program that we don't want interpreter to execute, just for understanding purposes. done by using single hashtag. ''' ''' for multiple line comments.
+interpreter executes code line by line and compiler executes it completely. Interpreters are used for flexibility and ease; compilers are used for speed and efficiency.Python compiles code to bytecode, then interprets that bytecode to execute it.Compiler converts entire code into machine code beforehand, so CPU can execute it directly without any interpreter.
+Variable naming Convention:-
+a) Variable name should be descriptive.
+b)They must start with a letter or underscore and can contain letter, number and underscore.
+c)variables are also case sensitive(name not equals to Name and also their values like amit not equals to Amit)
+d)to determine type of data stored, we use print(type(age)), its like determining what is the type of container(salt, liquid etc), functions are models that execute a particular task, like print , type etc.
+e)Typecasting is possible like changing datatypes, age = 23, it is interger, but using age = str(age), print(type(age)), datatype will now come string.
+Every typecasting is not possible, int can be converted to str but str cannot be converted into an integer.
+f)input() function can take input from the user side and can store that input in the variable.
+Input function takes the input in string format unless and untill we don't explicitly take it in int or other formats. age= int/float/bool(input("Enter your age :))
+Data types are type of material stored in container, like solid or liquid similarly int, float, bool, str. using correct datatypes is necessary for calculation purposes. and weight could be different of each type similarly memory of int, float etc are different and kind of operations performed using each datatype could also be different like concatanation used for strings.when we do str. or int. it shows list of functions that could be performed using each of them.
+Operators helps in applying operation on given operands.
+Types of Operators :-
+a)Arithmetic Operator(+,-,*,/,%(Modulus),//(floor), **(Exponent))
+b)Comparison operator(>,<,>=,<=,==,!=)
+c)Logical operator(AND,OR,NOT)
+Data Structure in python is used to store data in a structured format so that we can access the data and perform all the operations like we do in case of databases in sql(Create,delete,update,read), tabular form we make in numpy pandas
+Types of Data structure in python:- List, tuple, set, dictionary(stores data in structured format, differs from each other on which specific format we want to store our data)
+list can store all types of data that differs it from array in which only specific type of data is stored. List uses [] and every datatype could be stored in it. Lists are ordered(by use of indexing we can retreive data) and mutable(we can replace exisiting values in list with new values) Tuples are not mutable
+Keywords are reserved words that cant be used as a variable name as they have a reserved meaning. like lists can be used but not list.
+Tuples are ordered and non mutable, represented by () and it can also store all datatypes.
+Dictionary is used to store values in a key value format just like normal dictionary.
+Syntax for dictionary is{key_1:value_1,key_2:value_2,key_3:value_3}
+it is used in row column format of data, no sql or mongodb databases,dict is the keyword for dictionary.
+Dictionary is going to be ordered but not in index format rather we can access data by entering specific keys, ex, dictionary['name'] and it is mutable but we prefer it to be immutable so that specific keys can have specific values. updation is possible by entering new values to same key, like name:amit, name:vivek but to access vivek again name is used. so, only last entered value will be shown. hences keys are kept specific to each values hence immutability is preferred.
+del is used to delete dictionary items. like del dictionary["phone"], so key value phone will be deleted.
+you can have same values for multiple keys but not same keys for multiple values.
+Set store values in {} and it consists non duplicate values and unique values only,even if you trynna add it won't add.
+Conditional Statements is when a certain condition is met then statement/block of code gets executed(using if,else,elif clause)
+Elif(Else if is used when there are more than one conditions or more than one if statement that needs to be run)
+Nested conditional statements involve if statements inside another if statement.
+Looping Statements are used for iterating over a series of numbers or through iterables(data structures or through a collection of data), in order to avoid writing large lines of codes which are in a repetitive manner.
+Range() can be used for working as a iterable, or to print(iterate) a series of numbers.
+Range() takes an input parameter(parameter is the input that you provide to a function) and the first parameter that the range will be taking as the
+input will be the initial value that you want to print or you want to operate on and then you
+will be passing the next input after comma as the final value and it can take
+third parameter as well and that will be the step size and that is the difference between the
+iterating values.(initial value, final value+1, step size), for,while,loop control statements are syntax used in looping statements.
+In range function there is not a necessity of mentioning step size or initial values(only if the initial value is 0 and step size is 1)
+By using range(), we can represent values in increment or decrement fashion both, range function is used with for loop
+In looping statements we can iterate through iterables like string as well.
+While loop is used for iterating over a series of numbers when the condition is True and initialize the value as well.
+Pass statement is used when we want nothing from computer when condition is not met.
+Loop control statements are being used for terminating a loop in between when a condition is met or if you want to have some control over your iterating process. Break,pass,continue
+Break is used to terminate a loop when certain condition is met.
+Continue is used to skip values in between once we meet a condition(like skipping odd values while printing even numbers)
+Pass is used for doing nothing.
+Nested loop is basically loop within a loop, it helps with proper combination of iterating numbers.
+Function is a block of code that performs a specific task by taking input from user and some processing is done so that required output can be generated. EX- Google Translate
+Function helps in organising, reusing(need not to write same piece of code again n again) code and improving readibility.
+Syntax for function is, def is define, parameters are inputs provided to machine or function(you can name anything to function and parameter),docstring is the purpose of function or task it is performing, function body is the mechanism through which input is converted in output, return delivers the final output
+def function_name(parameters):
+ """Docstring"""
+ # Function Body
+ return expression
+ for having the access to our function, to provide the input to function we can simply call the function.
+ for calling a function mentioning the name of the function and then calling an input
+ print, input etc are all in built functions.
+ Handling errors in our function based on what input user is going to provide to function. So include specific codes inside function body. isinstance basically compares the input with datatype mentioned, and mainly used to handle name errors.
+Parameters is the input we use to have when we define the function, but arguements is what we use to pass when we call the function.
+Recursive Function- a function is going to call itself again and again, until we reach the base condition.
+Function can be with single,multiple,default,variable length parameters(positional arguements,keyword arguements).
+In case of multiple parameters, we are going to pass multiple values as our parameters.
+Round function rounds off the output value to specific digits.
+islower function checks whether the input is a lowercase or not.
+isupper  checks whether the current character is uppercase character or not
+is digit checks whether the current character is a digit or not
+any function checks every character in input and not any is negation of any
+str_name.lower() puts down the function in lowercase and replace() replaces what you give in it to next thing that you have provided in it.
+reversing a string-->[::-1]
+str_name.title() capitalize each word in a sentence.
+str_name.split() split the sentence in words and len of it gives the total word count.
+Lambda functions are the one liner functions. defined by the lambda keyword.(let python interpreter know that the current function is lambda function), arguements are input value of function, expression is the logic(function body)
+syntax is lambda arguements:expression. ex lambda x:x**2
+they can have any number of arguements but only one expression or logic
+they are used for short operations or arguements to higher order functions
+It can be treated as a function without name(so could be stored in a variable) and they don't require any return statement
+function mein parameters use ho rahe hai isliye code ko reuse kr skte hai, kyunki arguements toh change hote rehte hai
+Map function applies a given function operation to all items present in an iterable or list and returns a map object(An iterator) and avoids writing unnecessary lines of code.
+Syntax for map() is list(map(function,iterable))
+while mapping the value of one iterable with another iterable we can actually apply the operations in between the values of the two iterables in a synchronous way.
+filter() is going to retrieve only those items which are meeting a certain condition in an iterable. The filter function constructs an iterator from elements of an iterable for which a condition remains true or for which a function returns true value.
+Syntax for filter(): list(filter(function,iterable))
+use while loop to see the menu again n again while solving menu problems.
+information is stored in RAM memory or file in technology. In RAM memory, information is stored temporary but in file it is stored permanently.
+In case of NLP, we are going to store data in text format(sequential data) but in case of machine learning the file type will be binary files(image classifier cat dog jpeg or png) and in case of deep learning like object classifer again binary format is used.
+Types of files: 1)text file(.txt),docx 2)binary files(.png,.mp4,.mp3,.mov)
+File Handling: Open the file, Read/write/write read/read write the content, closing the file
+open()--->opening the file
+first parameter--->file name
+second parameter--->mode
+mode--->It decides the way in which we are working with the file.
+r--->reading the content from the file
+w---->writing the content into the file
+r+--->reading first and then writing the content into the file
+w+---->writing the content first and then reading from it
+for reading the file,read() reads the content from the file
+write() writes the content in file. It can be done in two ways:-1) write() overwrites the content into the file, erases previous one and adds new on. 2)append() simply adds content along with the previous one.
+with command is used for opening the file as an object and there is no requirement for closing the file as well.
+to write the content in file line by line, by using writelines(), we can use list in this context which will store content line by line, ex: 1st line is 0th index. write basically just use single strings and when list will be passed it will show type error and hence writelines is used in which iterables can be passed like list,tuples,etc. even if we use for loop with write then it will just print one string at a time, and the system would be much slower like sending a box on truck one by one and in writelines all boxes are sent at once hence it is much faster, hence to work with iterables writelines is the best case scenario.
+rb---> this mode is used to read content from a binary file
+wb----> this mode is used to write content in a binary file
+readlines() read the file line by line, lines are stored inside a list.['first line','second line'],so basically readlines store each line as a list item for quick iteration over these and prints the list in console
+seek() reads the entire file after writing it from the starting only, otherwise in read the pointer would be at the last only so nothing would be printed. so to make it read we have to move the pointer forward.
+.strip() basically removes the \n from printed statement
+OS library is able to interact with our operating system(just like how we manually go to myfiles in laptop and make or open folders) and let us work with multiple directories and files.
+getcwd()----.>provides us the idea about current working directory(shows path of current file), get current working directory(getcwd)
+mkdir()----->make directory(mkdir), it will create directory(folder or files)
+listdir()---->listing all directories present(list directories)
+os.path.join() join multiple paths together so that if we want to change directory from one path to other or connect multiple we can do that, we can pass as many parameters as we want(folder_path+file_path),because we want folder should be shown first and then file.
+os.path.exist() figure out whether the path exist or not
+os.path.isfile()--->whether the path belongs to file
+os.path.isdir()---->or it belongs to directory
+The complete path is going to be same as absolute path--->os.path.abspath() gives us complete directory of the given file or directory.
+If we want to use the function of one file into other file or notebooks using modules or packages or logic that has already been made by someone we can use it.
+Modules is the combination of functions,classes or variable and attributes that can be imported and used in other programs.(A guy made some logics and stored in files called modules which can be reused)
+Numpy Module is going to help us out with applying scientific calculation on array and store our data by consuming less space and faster operations as compared to lists because numpy contains the collection of function and attributes to work efficiently with array.
+Pandas Module helps with working with dataset, create a data from scraping website, clean or preprocess data, analysis with plotting graph
+Math module is used to perform mathematical calculation.
+A module helps in organisation(like math module has all mathematical function), it promotes reusability, it keeps the code clean and manageable.
+In every environment, some modules are pre installed like math module etc, but numpy,pandas etc we need to install so when we directly write import numpy it will show error.
+so by using command prompt we will use pip command to install all the libraries. pip install -r requirements.txt or we can use pip install numpy, requirements.txt is the file that contains name of each module that needs to be installed.
+We can also create our own library or module in which there are functions or attributes of our own so that we can use it in other files as well as others can use it. we can do this by creating a folder and the first file in it should be __init__.py. basically this file defines our own package and initializes their namespaces as well. This file can remain empty as well. It is simply used for initializing. Module name or package name must be same as the next file created after init. both init and next file should be under same folder. if we use . in front of file suppose .discount import additional_tax so it will search that module in that specific package but if dot is not used then it will search in entire package. It's like serarching for a guy in entire hostel but with dot in a specific room so chances of retrieval is higher in dot case.
+Module--->Packages---->library
+Module is simply a .py file, packages contain __init__.py so system knows it is a package which is collection of related modules, and library is collection of modules and packages.
+cd python file_name.py--->this helps to work in a .py file not a notebook for importing our own package into that .py file.
+We can have subpackages inside a package folder in which again we can use __init__.py and file_name.
+Python standard library is a vast collection of modules and packages that comes bundled under python and provide us with vast range of functionalities.like math,os library etc.
+Random Library will be used for generating random values. we can call this random value generator
+Csv library helps with working with csv files. CSV stands for comma separated value i.e each and every value is separated using a comma.TSV stands for tab separated value where every value is separated using tab space.
+Datetime library helps with figuring out current date and time.
+Time library provides us the current time and if we want our interpreter to sleep for seconds while writing a piece of code we can do this by using this library by using sleep()
+Shutil library basically copy the content of one file to another file(can copy in existing and can also create new file) so no need to manually create and new file and then copypaste.
+Json Library--->while working with nosql database data then the data inside the nosql database is going to be there in the json format and along with that when we are going to work with datasets then again these datasets will be consisting of data in json format.
+When we get a json data we get it in json string format, by using json library we can convert our string data in dictionary format for serializing our data. so it can be easily accessed(key:value)
+Regular expression is used to retrieve info based on a specific pattern or if the pattern matches.(like in NLP where sequential files are used sequences are basically how patterns are predicted based on previous sequence, in case of machine learning we normally don't use sequential data enough)
+Exception is any error that we are going to get while running the piece of code. like exception when using 0 as denominator but except 0 everything works fine so exception word is used.
+Exception handling is a way in which if we are getting the errors in programming or if the user entered input causes an error then instead of throwing an error we can raise an exception which can let the user know that the input is not correct or the given input can throw an error,as we don't want to stop the execution of program,so we raise an error which will let the user know that the input is not correct but the program execution won't stop.
+Exception are events that disrupt the normal flow of a program. They occur when an error is encountered during program execution.
+Different types of exceptions are:
+1)Zero Division error--->Dividing by zero 
+2)File Not Found error---->if file is not found
+3)ValueError---->Invalid Value
+4)TypeError---->Invalid Type(suppose when adding int with str or str with float then these are different datatypes so won't get added)
+5)NameError----> when a variable is not defined, a=b so in this case name error would occur. ex:-b=12,a=b now this is correct code.
+Using try-except block we can handle exceptions. In try block we are trying to run an operation which might throw an error, and in except, you are going to represent that if the error has been thrown then what should happen. It is quite similar to if-else clause. apparantly there we need to print statements in the else clause everytime so we are trying to come up with the best pattern case.
+we can include more than one excepts while dealing with more than one errors.
+if we are getting an error and we are not aware that which error type it is then we can use the primary exception class which is "exception". It should be mentioned at the last as it is the parent class so only if the previous exception classes like nameerror,etc will not catch the error then this one will be able to catch it.
+try---> it is going to have operation where we can expect an error to occur
+except--->use to handle error such that the program execution should not stop
+else--->if try block code is not throwing an error then else block code will be running for us.
+finally---->it gets executed once we are done with everything even if we are getting or not getting an error still the code inside finally block gets executed.
+else and finally are basically used for improved readibility purposes and organized code.
+if else could also be used instead of try except but primary classes like exception could not be used so dedicated a separate thing for error or exception handling.
+Basically through all of this coding we are trying to communicate with the computer for solving human tasks, so readibility and other things are also involved for human ease.
+code inside try block par hi except kaam karega agar uske andar koi error aaye toh hi except will work.
+raise is used when we deliberately want to raise an error ex: for negative values python never raise any error but if we want to raise then we use raise.
+isinstance(value,datatype) is used to check the type of value entered.
+In object oriented programming, we are trying to match up with the real world scenario by using programming. In OOPS we are going to learn about classes and objects. By class we mean to provide a blue print that must remain the same for each and every single object for us. these objects can have different functionalities from each other and different characteristics from each other but they must follow the similar blueprint, they must belong to the same class. Like Avenger is the class but ironman,hulk etc are the objects.
+By blueprint or class we mean a way for providing functionalities(method) and characteristics(attributes) to our objects. 
+class Class_name: (#define keyword class and name of class must start in capital letter)
+     def __init__(self,parameters) (#init is constructer,self is the current object I am referring to.)
+Attributes----> it stands for the characteristics that a specific object is going to have
+Method---->Functionality that a specific object is going to have
+self----> it refers to the current object of the class
+constructer--->it is referred by __init__, it gets automatically called as soon as we are going to create an object so that it can simply associate the attributes to our current object.
+Even if we won't be creating constructer from your side still we will see that the constructer is already going to be there because to associate attribute to object constructer has to be there.
+Types of Constructer:
+1) Default Constructer--->it doesn't have the parameter inside it and it is only having the self keyword inside it. it assigns a default value to all of the objects. it will not assign specific attributes to the objects.
+2)Parameterized Constructer---->it consists of parameters inside it so that every object can have the specific attribute associated to it. It allows us to pass arguement(parameters) while creating an object.
+Types of Methods:
+1)Instance Method---> it operates on object attribute, it is going to use self keyword to access and modify object attribute.these methods are called using an object. It will assign specific attributes to specific objects. ex: def introduction(self)
+2)class method-----> it is the method for whole class or blueprint which will remain the same for all of the objects then such kind of method is being referred to as class. In class method, they work with class level attributes(remain constant among each and every instance(object)), instead of self we use cls keyword. they are called using the class name as well. to specify that the current method is class method, the abbreviation @classmethod is used.
+3)static method----->static method do not use self or cls.they work like normal functions but belong to a class. they are designated by abbreviation as @staticmethod. static method can also be called by a class name also.
+Pillars of Object Oriented Programming:
+1)Inheritance:- it is a fundamental concept in oop because of which the child class is able to inherit the properties or attributes and functionalities of parent class into the child class. No need to create a new blueprint from scratch. parent class blueprint could be used and some new features or attributes could be added that differs it from parent class. improves code reusability.
+In python, we have 3 types of inheritance:
+i)Single Inheritance---->the attributes and functionalities from one parent class will inherit into one child class.
+ii)Multilevel Inheritance---->The properties or methods and attributes of grandparent class can be inherited by parent class then the properties of parent class will be inherited by the child class.(in hierarchial manner)
+iii)Multiple Inheritance----->The properties of two parent class or multiple parent class will get inherited into the child class.
+2)Polymorphism :- "Many forms", in OOP, it allows objects of different classes as if they are the object of the same class and it enables reusability and makes programs more flexible. basically method defined in parent class could have different implementation in child class. so single method could have different forms and this is only polymorphism.
+Types of Polymorphism:
+i)Method overriding--->also called as runtime polymorphism, a child class provides a specific/different implementation of a method that has already been defined into the parent class. This allows dynamic selection at runtime.
+ii)Method overloading---->also called as compile time polymorphism
+iii)Operater overloading
+3) Encapsulation:- It is a way of wrapping data(Variables and methods) inside a capsule or class as a single unit. It restricts the direct access to some of the object component's which is a means of preventing accidental inference or misuse of the data.
+Key Concepts of Encapsulation:-
+i)Private Members--->A private member is not accessible outside the class and not even in the derived class.In order to have the access over these members or to bring some modification in these members we use getter or setter method. these are declared by using double underscore before the name.(just like archives on insta)
+ii)Protected Members---> it is not accessible outside the class but it is accessible by the derived or child class.(just like close friends on insta) we use single underscore before the attribute.
+iii)Public Members---->A public member is accessible from anywhere or the attributes are accessible outside the class(like iron.name is directly declared outside the class. the declaration doesn't require to be done within the class unit) and these members are accessible by the derived class. Public member attribute is directly declared(ex self.name, so in this name is directly declared without any underscore or anything)(just like public story on insta)
+iv)getter and setter methods---->getter method will help us out with accessing the private data. setter method is used for modifying our private data.
+dir()---->it takes the input as the object name and gives us the idea that which member is public or protected or private.
+4)Abstraction:- It is the concept of hiding the implementation details and only showing the necessary features of the object. This helps in reducing programming complexity and effort. It is like abstract in books, shows the basic info not the complete one. It allows us to work with an object with what an object does rather than how it does it. Like in case of function, we were looking into the implementation but in case of print we just bothered about the role of it not the implementation.
+i)Abstract class--->import from ABC module. we can't create the object for this class. it cannot be instantiated.
+ii)Abstract method---> it can't be accessed by the object of abstract class that's why we have to call this abstract method in child class and the implementation of abstract method is not provided inside the abstract class,bcoz object cannot be created in abstract class but must be provided in the child class. The abstract method is being defined by @abstractmethod.
+Magic Methods are also called as dunder methods because they have double underscores before and after their name. they are special methods in python that allow us to customize how object behave. we can apply operations on methods like arithmetic, greater than equal to. init is also a magic method that instantiate the object with given attributes.
+These methods can help us define:
+i)Object Initialization(__init__)
+ii)String representation(__str__,__repr__)
+iii)Arithmetic Operations we can perform(__add__,__sub__)
+iv)Comparison Operations(__eq__)
+v)Length,indexing,iteration(__len__,__getitem__)
+Why to use magic methods? It makes objects behave like built in types(list,integers),improves the readibility by allowing intuitive operations or basic operations like object1+object2, it simplifies code by replacing verbose function calls with natural syntax.
+print(object)--->__str__--->what is returned when print object is used.
+Arithmetic operation can be done among the objects by using magic methods.
+Operater Overloading--->It allows us to define how operaters(+- etc)work with user defined objects. 
+It makes custom objects behave like built in types.(numbers,strings,listetc)
+It improves code readibility by using natural syntax like obj1+object2 insted of object1.add(object2)
+Every operater has a specific magic method to change or overload it's implementation to something else as per our need to play with the objects and this is only operater overloading.
+## Operator ---> + ---> Method name ---> __add__(self, other)
+
+## Operator ---> - ---> Method name ---> __sub__(self, other)
+
+## Operator ---> * ---> Method name ---> __mul__(self, other)
+
+## Operator ---> / ---> Method name ---> __truediv__(self, other)
+
+## Operator ---> == ---> Method name ---> __eq__(self, other)
+
+## Operator ---> > ---> Method name ---> __gt__(self, other)
+Streamlit helps to bring our coding or algorithm of a particular task in real world environment through UI interface. So,basically streamlit helps creating such UI interfaces for easy application of the coding backend that we have created.
+It is an open source python library used to build beautiful,interactive web applications for data science and machine learning with minimal effort. It is easy to use, fast development, interactive UI elements ex:-button,sliders,text inputs,charts etc.,great for data science:-support pandas,matplotlib,Plotly and other libraries, deployment is also easy.
+

@@ -1,0 +1,91 @@
+Artifical Intelligence is the field of computer science that aims to create machines that can simulate human intelligence.(pattern prediction from previous data of patterns stored in memory,reason and think for efficient survival in human and decision making or problem solving,(problem is some unknown pattern or prediction),results are made by the best use case of pattern recognition and prediction done by many use cases and choosing the best one,it might be hit n trial for several times like for first time someone was hungry and saw an animal and 2 more people saw it, and all three came and attacked over it and eaten it together. and 4th one noticed this pattern so next time he joined them too for eating and survival purpose.some general rules made by someone in the crows(probably superior) like language, which is again based on patterns.)
+In artificial intelligence,we don't explicitly program the machines to get the work done.
+Coding is basically done by humans for humans by providing a code or a specific use case that is done by a human for a human through a machine. Here,machine develops no intelligence just follows the command of master.
+But when the machine learns(Machine learning) through pattern prediction just like humans when both input and output data is provided to the machine,then it predicts the pattern and develops intelligence,which in terms of machine is called artificial intelligence.
+Artificial Intelligence---->Machine Learning,NLP---->Deep Learning---->GenAI
+Machine Learning is the field of computer science that uses the statistical techniques(mathematical techniques/algo) to give computer systems the ability to learn from data without being explicitly programmed.
+Two main things of Machine Learning---->1)Algorithm(pattern prediction) 2)Data(more data more best prediction model)
+ML Algo figures out the pattern between input and output data initially provided to it and once it is capable of coming up with the pattern,we can feed the algo with more data to check if the algo pattern can predict accurate results or not.
+Initially there was symbolic AI which used if-else statements to come up with outputs. basically expert systems which had knowledge base(combination of many if else statements like if report is this then lung disease etc).but they were designed for specific use cases and not generalised so more efficient pattern based(cooking pattern applied to all things related to it) and no rule based learning(without if else,very large if else for large problems or data or rewriting it for same patterns,which also might not include all use cases or inputs) was required and hence ML was introduced.
+NLP(Natural language processing) includes all tools which can convert text data into numeric data. so ML as it is a statistical model, it cannot directly be used to convert english into hindi or for voice translation like siri, so there some mediator which could convert these text into numeric data was required for pattern prediction and hence NLP was introduced. Audio data is converted into MFCC whuich is a frequency and this frequency get converted into mathematical model and then trained in model.
+Deep Learning is the subfield of machine learning where data is feeded into the model and DL Algo will come up with the pattern in between input and output.
+In DL we use neural network architecture(inspired by human brain, perceptrons(artificial neurons)are connected and patterns are analysed and predicted) and in ML we used stats tools.
+In ML, features needed to be created or extracted from the input data(feature engineering) that is fed to the model, but in case of deep learning, it is itself capable to detect the features from the input data,which a human brain also does very instantaneously(like for a specific task what features are required to be fed from the entire input data, like for cooking some specific features are required instead of the whole data).So, no feature creation or extraction is required.
+uses cases:- self driving car,chatgpt,automatic speech recognition etc.
+DL:- series of neuron layers--->more no of neurons layers--->more data we can feed---->more deeper insights or patterns
+for small datasets, use ML model and for large use DL.
+Generative AI:- In DL, we have GAN(Generative Adverserial Network) which can generate new data(ofc based on previous patterns may look unrelated but high recognition and prediction) like new images etc. And this part of generating some new info comes under generative AI.
+Different types of training/learning process of machines:-
+1)Supervised Learning:- Model gets trained by taking both input(80000 rows of input features) and output data and once model gets trained and it recognizes the pattern between inp and out then we can provide our model wth the new input(remaining 20000 rows of input features data) to predict the output. if the output is correct(predicted output is almost similar to actual output) then the algo is correct if not then the algo needs to be reconsidered.
+Types of Supervised ML:-
+1)regression-->output is numerical value(temperature,stock price etc) 2)classification---->output is categorical value(ex dog cat classifer,email spam prediction,yes/no prediction like depression yes/no)
+2)Unsupervised Learning:- Only input data is fed but no output data is fed. That's why we usually don't go with prediction(no patterns recognized),based on similarities in input data points,we can group the data(grouping or aggregating). Tagging or labelling of data(like in cat dog classifer) requires time and costing, so we feed unlabelled data and model labels it with some patterns that it recognizes on it's own.like EDA
+
+Types:-
+1)Clustering:-we create group or clusters based on similarities(similar patterns) in input data points and then these clusters can be labelled in future(ex: high iq,lowiq,high cgpa,low cgpa etc)
+2)Dimensionality Reduction:- large columns are reduced to single or fewer columns for visualization and analysis purposes.(like 784 columns reduced to 3 etc for pixel images which contain large pixels like 784 pixels)
+3)Anamoly Detection:-some anamoly(outlier) is detected.
+4)Association rule based learning:-associate data points based on some similarities so that we can draw some important conclusions.(ex from 10000 bills patterns are derived of purchase of bread and butter together so keeping it near to each other,similarities detected) Data Mining is also deriving some deep insight from data.
+
+3)Semisupervised ML:-Just some data we have to label on our own and the rest of the data will be labelled by the algo itself based on the similarities in the data point.(ex: in google photos we label one photo as julie and then all other photos with similar characteristics are labelled as julie itself)
+4)Reinforcement Learning:-forcing the model to provide us with accurate output. No data for training the model in reinforcement learning. We let the model predict the output on it's own and then we provide the feedback if output is right or not.(ex:self driving cars)
+Tensors are fundamental unit or data structure or containers that can store data in structured format(image,csv,video,dataframes etc) in ML,DL or in building any AI Model.Numpy array is like normal calculater and tensors are like scientific calculaters,they work well with DL,ML extra things,neural networks etc.
+No.1 Library in Deep Learning for building neural networks is tensorflow.
+Types of Tensors:
+1)0-Dimensional Tensor:-for storing scalar values(2,3,4,5etc),basically individual values without row or column. use numpy for creating these tensors(np.array)
+2)1-D:-stores the data in one dimension or direction,we need just 1 index to locate a number(like 5,6,7,8,index for 5=0,for 6=1etc)(single column or row)1-d tensors are actually vectors(single row or single column,1d array)
+Dimension of tensor=dimension of array(like in 1d it's 1), but only dimension=total number of elements present in the array. ex:[1,2,3,4]= 1-d tensor and dimension=4
+Axis=Total dimension, 5-D tensor, axis=5. for 2-D, axis=2(0=row,1=column)
+1-D Tensor is vector and 0-D is scalar. vector is the combination of scalar values(unique values).
+3)2-D:-contains data in 2 direction or dimension. combination of rows and columns(like dataset)(we need two index to locate a number like [5,6][7,8]so for 6,index is 0,1). 2d tensors are referred to matrix. matrix is the combination of multiple vectors.
+4)3-D:-contains data in 3 dimensions. combination of multiple matrix. 3rd direction is z-axis. 3-D tensors are used in NLP models,in label encoding.
+5)4-D:-contains data in 4 dimensions. combination of 3-D tensors,vector of 3-D tensor(we have 3d tensors in one direction),like image data in the form of pixels are stored in 4d tensor format
+6)5-D:-contains data in 5 dimensions. combination of 4-D tensors,matrix of 3-D tensor,vector of 4D tensor.(we have 3d tensors in multiple direction), like video data(video is basically pictures in high speed, fps(frames per second),and image is 4d and video is combination of images so, 5d)
+Machine Learning Development life cycle(MLDLC) is basically the roadmap(step by step process) from idea to final project of making a ML Model.
+Machine learning algorithms are implementations of mathematical algorithms written as code inside libraries like scikit-learn, TensorFlow, PyTorch, etc.RandomForestClassifier() is not magic. Somewhere inside the scikit-learn source code, developers have written thousands of lines of Python (and optimized C/Cython) implementing the Random Forest algorithm.The algorithm analyzes the data and learns patterns like:
+If Age > 45
+AND Sugar > 160
+→ Diabetes is likely
+It doesn't "understand" the data like a human. It optimizes mathematical parameters so that its predictions match the training data as closely as possible.
+Machine learning algorithms are implementations of mathematical learning methods, packaged as code in libraries. During training, they analyze the data, learn patterns by optimizing their internal parameters, and then use those learned patterns to make predictions on new data.
+When you write:
+print("Hello World")
+Python does not convert "Hello World" into a number for machine learning.
+It stores it as a string object
+The computer internally stores "Apple" as a string.
+But a machine learning algorithm performs mathematical operations like:
+Addition
+Multiplication
+Distance calculation
+Matrix multiplication
+It cannot calculate:
+Apple × 2
+or
+Apple > Mango
+These operations have no mathematical meaning.
+So we convert categories into numbers.(Label Encoding)
+Yes, at a lower level, everything in a computer—including strings—is stored as binary (0s and 1s).
+
+For example:
+
+"A"
+
+has the Unicode value:
+
+ord("A")
+
+Output:
+
+65
+
+But machine learning libraries do not use these character codes as feature values, because:
+
+"Apple" becomes a sequence of character codes (65, 112, 112, ...), which represents spelling, not the category. And it cannot be used in ML Model as it cannot predict using this.
+
+
+
+
+
+
+
+
