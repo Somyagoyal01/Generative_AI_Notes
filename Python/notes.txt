@@ -1,13 +1,13 @@
 By the use of command prompt(comes with downward arrow near plus button)we will be creating separate env for installing libraries in each use case like ml, dl, nlp etc.
 Use of latest version of python is because of more number of libraries.
-venv stands for virtual environment. The separate environment that we would be creating.it is like a separate box for using python and its libraries individually for each project.so that it does not mix with other projects. sex could mean different in different scenarios(gender/mate). so similar way.
+venv stands for virtual environment. The separate environment that we would be creating.it is like a separate box for using python and its libraries individually for each project.so that it does not mix with other projects. for every project version requirements of tools, libraries etc can be different, so with every use case we create a separate environment for installation of such requirements individually and independently, otherwise it will be installed in the global python environment and can mislead the requirement of the project.
 Github copilot writes codes directly from a problem statement.
 Markdown in jupyter is used for heading. use # in beginning to write heading #somya, then shift+enter. double hashtags is used for sub heading. again shift+enter
 Your code = English sentence(python is a bridge between humans and computers),A library is a collection of pre-written code (functions, classes, tools) that you can reuse.
 Compiler/Interpreter = translator
 Binary = Morse code ⚡
 CPU = person reading Morse and acting
-IDE = place where you write, run, debug, and manage your entire coding workflow.
+IDE(Integrated Development Environment) = place where you write, run, debug, and manage your entire coding workflow.
 Anaconda is a complete package (distribution) of Python + tools + libraries, designed especially for data science, machine learning, and AI.
 Syntax is grammer(set of rules) of this language. so python, c++ all have different syntax. 
 notebook is line by line notation of this language or code.
